@@ -80,11 +80,11 @@ function Footer() {
           style={{ lineHeight: "1.7" }}
         >
           <p>
-            Zerodha Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI Registration
-            no.: INZ000031633 CDSL/NSDL: Depository services through Zerodha
+            StockEdge Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI Registration
+            no.: INZ000031633 CDSL/NSDL: Depository services through StockEdge
             Broking Ltd. – SEBI Registration no.: IN-DP-431-2019 Commodity
-            Trading through Zerodha Commodities Pvt. Ltd. MCX: 46025; NSE-50001
-            – SEBI Registration no.: INZ000038238. Registered Address: Zerodha
+            Trading through StockEdge Commodities Pvt. Ltd. MCX: 46025; NSE-50001
+            – SEBI Registration no.: INZ000038238. Registered Address: StockEdge
             Broking Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence
             Public School, J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka,
             India.

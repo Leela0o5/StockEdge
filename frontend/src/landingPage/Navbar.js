@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -10,13 +11,13 @@ function Navbar() {
     >
       <div className="container py-2">
         {/* Logo */}
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="/">
           <img
             src="/media/images/logo2.png"
             alt="StockEdge Logo"
             style={{ width: "140px", height: "auto" }}
           />
-        </a>
+        </Link>
 
         {/* Mobile Toggle Button */}
         <button
@@ -38,29 +39,29 @@ function Navbar() {
         >
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" href="#">
+              <Link className="nav-link active" to="/signup">
                 Signup
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#">
+              <Link className="nav-link active" to="/about">
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#">
+              <Link className="nav-link active" to="/product">
                 Product
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#">
+              <Link className="nav-link active" to="/pricing">
                 Pricing
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#">
+              <Link className="nav-link active" to="/support">
                 Support
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
