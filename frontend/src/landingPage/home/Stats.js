@@ -7,7 +7,7 @@ function Stats() {
       <div className="row align-items-center">
         {/* Text Section */}
         <div className="col-md-6 text-center text-md-start mb-4 mb-md-0">
-          <h1 className="mb-5">Trust with Confidence</h1>
+          <h1 className="mb-5 fs-2">Trust with Confidence</h1>
 
           <div className="mb-4">
             <h2 className="fs-5 fw-semibold">Customer-first always</h2>
@@ -43,7 +43,7 @@ function Stats() {
         </div>
 
         {/* Image and Links Section */}
-        <div className="col-md-6 text-center p-3">
+        <div className="col-md-6 text-center p-3 mt-5">
           <img
             src="media/images/ecosystem.png"
             alt="Ecosystem Illustration"
