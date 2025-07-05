@@ -14,7 +14,7 @@ function Hero() {
 
         <h1 className="mt-4 display-5 fw-bold">Invest in everything</h1>
 
-        <p className="lead fs-5 px-2">
+        <p className="lead fs-5 px-2 text-muted">
           Online platform to invest in stocks, derivatives, mutual funds, and
           more
         </p>
