@@ -15,3 +15,42 @@ code {
 a{
   text-decoration: none;
 }
+
+#supportHero {
+  background-color: #2e80d6; /* Zerodha-like blue */
+  width: auto;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+#supportWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 5vw;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#supportHero input {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  width: 90%;
+  max-width: 90%;
+  border-radius: 10px;
+  border: none;
+}
+
+#supportHero a {
+  color: white;
+  text-decoration: none;
+}
+
+#supportHero a:hover {
+  text-decoration: underline;
+}
+
+#supportHero ol {
+  padding-left: 1rem;
+}
