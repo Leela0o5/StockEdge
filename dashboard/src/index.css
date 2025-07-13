@@ -722,6 +722,8 @@ hr {
   align-items: center;
   justify-content: flex-end;
   display: none;
+
+   
 }
 
 .actions span button {
@@ -757,6 +759,8 @@ hr {
 .icon {
   transform: scale(0.7);
   color: rgb(65, 65, 65);
+ 
+
 }
 
 .watchlist-number {
@@ -840,6 +844,26 @@ hr {
 
 .action:hover {
   background-color: rgb(212, 212, 212);
+  
+}
+
+.inline-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 12px;
+}
+
+.inline-actions button {
+  height: 28px;
+  padding: 0 10px;
+  font-size: 0.75rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 

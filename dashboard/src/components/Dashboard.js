@@ -14,9 +14,9 @@ const Dashboard = () => {
   return (
     <div className="dashboard-container">
       <WatchList></WatchList>
-
       <div className="content">
         <Routes>
+          <Route exact path="/dashboard" element={<Summary />} />
           <Route exact path="/" element={<Summary />} />
           <Route path="/orders" element={<Orders />} />
           <Route path="/holdings" element={<Holdings />} />
