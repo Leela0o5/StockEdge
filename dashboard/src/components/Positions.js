@@ -4,7 +4,7 @@ import axios from "axios";
 const Positions = () => {
   const [allPositions, setAllPosition] = useState([]);
   useEffect(() => {
-    axios.get("http://localhost:8080/allPositions").then((res) => {
+    axios.get("https://stockedge.onrender.com/allPositions").then((res) => {
       setAllPosition(res.data);
       console.log(res.data);
     });

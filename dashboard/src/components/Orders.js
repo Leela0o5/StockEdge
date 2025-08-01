@@ -5,7 +5,7 @@ const Orders = () => {
   const [orders, setOrders] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8080/allOrders")
+    fetch("https://stockedge.onrender.com/allOrders")
       .then((res) => res.json())
       .then((data) => setOrders(data))
       .catch((err) => {

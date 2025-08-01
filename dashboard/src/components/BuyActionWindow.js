@@ -12,7 +12,7 @@ const BuyActionWindow = ({ uid }) => {
   const [stockPrice, setStockPrice] = useState(0.0);
   const generalCtx = useContext(GeneralContext);
   const handleBuyClick = () => {
-    axios.post("http://localhost:8080/newOrder", {
+    axios.post("https://stockedge.onrender.com/newOrder", {
       name: uid,
       qty: stockQuantity,
       price: stockPrice,
