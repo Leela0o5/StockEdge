@@ -39,11 +39,6 @@ function Navbar() {
         >
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link active" to="/signup">
-                Signup
-              </Link>
-            </li>
-            <li className="nav-item">
               <Link className="nav-link active" to="/about">
                 About
               </Link>
